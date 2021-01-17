@@ -1,0 +1,48 @@
+header{
+    background-color: rgb(0, 162, 255);
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav{
+    background-color: rgb(111, 125, 245);
+    grid-area: nav;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: rgb(12, 50, 107);
+    color: white;
+    grid-area: main;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside{
+
+    background-color: rgb(18, 238, 201);
+    grid-area: aside;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color:rebeccapurple;
+    color:lime;
+    grid-area: footer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    grid-template-rows:auto;
+    grid-template-areas: " header header header"
+                         "nav main aside"
+                         "footer footer footer";
+}
+
+h1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:inherit;
+}
